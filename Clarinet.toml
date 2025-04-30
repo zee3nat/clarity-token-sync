@@ -4,6 +4,14 @@ authors = []
 description = ""
 telemetry = false
 requirements = []
+[contracts.cross-chain-connector]
+path = "contracts/cross-chain-connector.clar"
+depends_on = []
+
+[contracts.token-registry]
+path = "contracts/token-registry.clar"
+depends_on = []
+
 [contracts.token-sync]
 path = "contracts/token-sync.clar"
 depends_on = []
